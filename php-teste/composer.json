@@ -1,0 +1,11 @@
+{
+    "name": "fernandoteffelen/php-teste",
+    "autoload": {
+        "psr-4": {
+            "Fernandoteffelen\\PhpTeste\\": "src/"
+        }
+    },
+    "require": {
+        "aws/aws-sdk-php": "^3.0"
+    }
+}

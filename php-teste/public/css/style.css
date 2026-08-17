@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f6f8;
+    color: #222;
+    margin: 0;
+    padding: 40px;
+}
+
+h1 {
+    margin-bottom: 35px;
+    color: #222;
+}
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* Área de upload */
+
+#form-upload {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    max-width: 700px;
+}
+
+input[type="file"] {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background: #fafafa;
+}
+
+/* Botões */
+
+button {
+    border: none;
+    border-radius: 6px;
+    padding: 9px 15px;
+    cursor: pointer;
+    font-size: 14px;
+    background: #2563eb;
+    color: white;
+    transition: 0.2s;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+#form-upload button {
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+/* Mensagem */
+
+#mensagem {
+    margin-top: 12px;
+    font-size: 14px;
+}
+
+/* Filtro */
+
+#filtro {
+    padding: 9px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background: white;
+    font-size: 14px;
+    margin-left: 8px;
+}
+
+/* Tabela */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+thead {
+    background: #f0f1f3;
+}
+
+th,
+td {
+    padding: 14px 16px;
+    text-align: left;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+th {
+    font-size: 14px;
+    color: #555;
+}
+
+td {
+    font-size: 14px;
+}
+
+tbody tr:hover {
+    background: #f8f9fb;
+}
+
+tbody tr:last-child td {
+    border-bottom: none;
+}
+
+/* Botões da tabela */
+
+td button {
+    margin-right: 6px;
+}
+
+td button:last-child {
+    background: #dc2626;
+}
+
+td button:last-child:hover {
+    background: #b91c1c;
+}

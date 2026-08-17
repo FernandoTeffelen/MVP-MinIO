@@ -1,0 +1,17 @@
+**/vendor/
+
+.env
+.env.*
+!.env.example
+
+/data/
+
+**/storage/downloads/*
+**/storage/uploads/*
+
+.vscode/
+.idea/
+
+*.log
+.DS_Store
+Thumbs.db
